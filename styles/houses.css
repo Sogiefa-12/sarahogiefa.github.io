@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(139, 82, 82);
+}
+
+#houses {
+    padding: 25px;
+    margin: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+
+.houses img{
+    width: 70%;
+    border-radius: 10%;
+    display: flex;
+    grid-template-columns: 1fr, 1fr;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    
+}
+
+p{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-content: center;
+    text-align: justify;
+
+}
+
+.houses2 img{
+    display: inline;
+    width: 50%;
+    border-radius: 10%;
+    align-items: center;
+    align-self: center;
+    align-self: center;
+}
+
